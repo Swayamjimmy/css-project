@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 6px;
+}
+.logo{
+    font-size: 26px;
+}
+.container{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+img{
+   width: 300px;
+   height: auto;
+   border-radius: 8px;
+   margin: 20px;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.5cm;
+}
+.SignUp {
+    width: fit-content;
+    background-color: #3882f6;
+    color: white;
+    padding: 6px;
+    border: #3882f6;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+.heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+.imgc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgc img {
+    width: 150px;
+    height: 190px;
+}
+.img1, .img2, .img3, .img4 {
+    background-color: goldenrod;
+    color: black;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  
+    margin: 15px;
+}
+h2 {
+    text-align: center;
+}
+.text {
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    flex-wrap: wrap;
+    
+}
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    line-height: 1.5cm;
+    
+
+}
+.speak{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.endc {
+    margin: 80px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 40px;
+    border-radius: 20px;
+}
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+.headt{
+    font-weight: bold;
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 40px;
+    text-align: center;
+    padding: 30px;
+}
